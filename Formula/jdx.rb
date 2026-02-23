@@ -1,22 +1,22 @@
 class Jdx < Formula
   desc "JSON Data eXplorer — interactive, AI-augmented terminal JSON viewer"
   homepage "https://github.com/eladbash/jdx"
-  version "0.1.3"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/eladbash/jdx/releases/download/v0.1.3/jdx-aarch64-apple-darwin.tar.gz"
-      sha256 "aa5fef7c419e7da1ec669d03643240ac20f1fe4858787f6f4b2e306fe6af9b45"
+      url "https://github.com/eladbash/jdx/releases/download/v0.2.0/jdx-aarch64-apple-darwin.tar.gz"
+      sha256 "349acc4b44df180a27e0d2acafc482c763226c86eb689a5813bf92c19d5bd0ab"
     else
-      url "https://github.com/eladbash/jdx/releases/download/v0.1.3/jdx-x86_64-apple-darwin.tar.gz"
-      sha256 "e27f0f4f4c9f03cf0b87ef3b1ecc58555d67d6be64791e441341b6ba34c2ffc7"
+      url "https://github.com/eladbash/jdx/releases/download/v0.2.0/jdx-x86_64-apple-darwin.tar.gz"
+      sha256 "f995e24104d381f58ba6bc53225d17edf0eaefbcdf3f086fc1672b6c098b2d38"
     end
   end
 
   on_linux do
-    url "https://github.com/eladbash/jdx/releases/download/v0.1.3/jdx-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "3129affcb5506ecb308f92dd63c72b63b565e25b0e002186eff5c32fb7c311ac"
+    url "https://github.com/eladbash/jdx/releases/download/v0.2.0/jdx-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "c8ec2ab921dd30f2b6fc1edf0d82cb61acac2d9e19f57b380aca1be0f899aea4"
   end
 
   def install
